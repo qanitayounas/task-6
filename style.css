@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: rgb(150, 191, 219);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list,
+  .add-book,
+  .search-books {
+    padding: 20px;
+  }
+  
+  .book-list {
+    flex: 1;
+    border-right: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  .add-book {
+    flex: 1;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label,
+  input {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: rgb(6, 66, 70);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: rgb(6, 66, 70);
+  }
+  
+  .search-books {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  #search {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-button {
+    margin-top: 10px;
+    background-color: rgb(6, 66, 70);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #search-button:hover {
+    background-color: rgb(6, 66, 70);
